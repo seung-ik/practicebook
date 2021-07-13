@@ -1,0 +1,1 @@
+export const LEFT_NAV_WIDTH = 240;
