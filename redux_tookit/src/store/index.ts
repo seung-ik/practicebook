@@ -6,7 +6,7 @@ import {
   applyMiddleware,
 } from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "./reducer";
+import rootReducer from "./reducers";
 
 const configure = () => {
   const devTools = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__;
